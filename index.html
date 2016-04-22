@@ -4,15 +4,149 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>KAWATA HIROKI</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    
+    <style>
+       *{
+           margin:0;
+           padding:0;
+        }
+        
+        body {
+            width:100%;
+            margin:0 auto;
+            font-size:17px;
+            font-family: 'Crete Round', MS PGothic, serif;
+            font-weight: bold;
+            
+        }
+        
+        header {
+            padding-bottom:30px;
+            background-color:#4682b4;
+        }
+        
+        .photo{
+            border-radius:0 0 50px 50px;
+            display: block;
+            margin:0 auto;
+            max-width: 100%;
+            height: auto;
+
+        }
+        
+        h1{
+            font-size:50px;
+            padding-bottom:10px;
+            border-bottom:3px solid #000;
+        }
+        
+        .content{
+            margin-bottom:50px;
+        }
+        
+        .text{
+            margin-top: 30px;
+            word-wrap: break-word;
+            text-align:justify;
+        }
+        
+        .menu{
+            padding:30px 0 30px 0;
+            width:90%;
+            text-align:center;
+        }
+        
+        .menu p{
+ 
+        }
+        
+        .menu1{
+            padding:10px;
+        }
+        
+        .menu2{
+            padding:10px;
+        }
+        
+        .menu3{
+            padding:10px;
+
+        }
+        
+        
+        
+        .bar{
+            margin:0 auto;
+            background-color:#000;
+            width:50px;
+            height:4px;
+        }
+        
+        .arrow{
+            margin:0 auto;
+            width:30px;
+            height:30px;
+            border-left: 4px solid #000;
+            border-bottom: 4px solid #000;
+            transform: rotate(-45deg);
+        }
+        
+        .connect{
+            margin:50px 0;
+            text-align:center;
+        }
+        
+        .connect a {
+            color:#fff;
+        }
+        
+        footer{
+            font-size:12px;
+            text-align:center;
+            margin-bottom:15px;
+        }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+        <header>
+            
+        </header>
+        
+        <div  class="container-fluid content">
+            <img src="img/kawata_img500.jpg" class="photo col-md-4"></img>
+            <div class="text col-md-8">
+                <h1>KAWATA HIROKI</h1>
+                <div>
+                    河田大樹 1993年7月 山口県生まれ<br>
+                    <br>
+                    学生時代はクリエイティブを俯瞰的にとらえるべく、フリーマガジンの副編集長やアートキュレーターとして活動した。現在、ウェブデザイナーとして、インターネットを通してより多くのユーザーに価値ある体験を提供できることを目標に日々模索中である。
+                    
+                </div>
+            </div>
+        </div>
+        
+        <p class="bar"></p>
+        
+        <div   class="container-fluid menu">
+            <div class="col-md-4 menu1">Design</div>
+            <div class="col-md-4 menu2">Photography</div>
+            <div class="col-md-4 menu3">Technology</div>
+        </div>
+        
+        <p class="arrow"></p>
+        
+        <div class="connect">
+            <button class="btn btn-success btn-lg"><a href="https://github.com/kawata-hiroki-kakaku">Github</a>
+        </div></button>
+        <footer>© 2016 KAWATA HIROKI All Rights Reserved.</footer>
   </body>
 </html>
